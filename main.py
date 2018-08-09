@@ -1,7 +1,7 @@
 import timeit
 import random
 
-#1
+#2
 
 def speed_type():
     num=1
@@ -78,8 +78,10 @@ if __name__=="__main__":
     
     num=10000
     
-    #1
-    print(1)
+    #1 no code provided
+    
+    #2.1
+    print(2.1)
     r=timeit.timeit("speed_type()",number=num,setup="from __main__ import speed_type")
     print(r)
     r=timeit.timeit("speed_type_is()",number=num,setup="from __main__ import speed_type_is")
@@ -87,8 +89,8 @@ if __name__=="__main__":
     r=timeit.timeit("speed_isinstance()",number=num,setup="from __main__ import speed_isinstance")
     print(r)
     
-    #2
-    print(2)
+    #2.2
+    print(2.2)
     r=timeit.timeit("speed_len_in_loop()",number=num,setup="from __main__ import speed_len_in_loop")
     print(r)
     r=timeit.timeit("speed_len_out_of_loop()",number=num,setup="from __main__ import speed_len_out_of_loop")
