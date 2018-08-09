@@ -18,6 +18,7 @@ Supposedly #5 needs less memory, I just timed it.
 
 Here are my numbers:
 
+```
 2.1
 0.01724725399981253
 0.016332330999830447
@@ -34,3 +35,4 @@ Here are my numbers:
 5
 0.9053581710004437
 1.042141163999986
+```
